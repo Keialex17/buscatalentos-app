@@ -1,0 +1,171 @@
+/* body {
+    background-color: rgb(242, 242, 242);
+} */
+
+#inputperfil-1 {
+  margin-bottom: 19px;
+  font-size: 49px;
+  max-width: 330px;
+  height: 45px;
+  border: 0px;
+}
+
+
+#inputperfil-2 {
+  font-size: 25px;
+  max-width: 330px;
+  height: 45px;
+  margin-bottom: 7px;
+  border: 0px;
+}
+
+#inputperfil-5 {
+  font-size: 19px;
+  max-width: 463px;
+  height: 25px;
+  margin-bottom: 0.5rem;
+  border: 0px;
+}
+
+#inputtalento-1 {
+  font-size: 37px;
+  max-width: 412px;
+  height: 45px;
+  border: 0px;
+}
+
+#inputtalento-2 {
+  font-size: 28px;
+  max-width: 412px;
+  height: 45px;
+  border: 0px;
+}
+
+#inputtalento-3 {
+  font-size: 19px;
+  max-width: 412px;
+  height: 72px;
+  border: 0px;
+}
+
+
+#iconperfil-perfil {
+  height: 100%;
+  width: 100%;
+}
+
+#circulo-perfil-boton-div {
+  height: 130px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+
+#circulo-boton-perfil {
+  color: #ffff;
+  width: 60px;
+  height: 60px;
+  border: 0;
+  background: #8924a3; 
+  border-radius: 70px;
+  transition: background-color 1s;
+}
+
+#circulo-boton-perfil:hover {
+  background-color: #cf3af5;
+}
+
+#talentotitulo-perfil {
+  margin-top: 92px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline solid #8924a3;
+}
+
+#perfiltitulo-perfil {
+  margin-top: 50px;
+    font-size: 50px;
+    text-align: start;
+    text-decoration: underline solid #8924a3;
+}
+
+#text-area-perfil {
+  width: 500px;
+  font-size: 18px;
+  height: 45px;
+  margin-bottom: 1rem;
+  border: 0px;
+}
+
+
+
+#circle-profile-card-img-perfil {
+    background: rgb(117, 117, 117);
+    border-radius: 50%;
+    width: 325px;
+    height: 325px;
+    outline: 5px solid #b636d6;
+
+  }
+
+#description-profile-box-perfil {
+    margin-top: 5rem;
+    margin-left: 13rem;
+    display: flex;
+    flex-direction: column;
+}
+  
+  #review-card-perfil {
+    text-align: center;
+  }
+  
+  #photo-profile-box-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #add-photos-container-card-perfil {
+    width: 400px;
+    height: 400px;
+  }
+
+  #description-photos-container-card-perfil {
+    margin-left: 50px;
+    margin-top: 38px;
+    width: 400px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #section3-box-talent-card-perfil {
+    width: 375px;
+    height: 375px;
+  }
+
+  #img-photo-perfil-css {
+    border-radius: 16%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #section-photos-card-perfil {
+    margin-top: 75px;
+  }
+  
+  #buttons-final-card-perfil {
+    height: 493px;
+  }
+  
+  #intercambio-button-card-perfil {
+    margin-right: 4vw;
+  }
+  
+  #intercambio-button-card-perfil,
+  #seguirviendo-button-card-perfil {
+    margin-top: 103px;
+  }
+  

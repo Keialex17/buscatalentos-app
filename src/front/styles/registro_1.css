@@ -1,0 +1,70 @@
+#section-one {
+    height: 75vh;
+}
+
+h1#h1-profile {
+    margin-bottom: 7vh;
+}
+
+h2#h2-profile {
+    margin-bottom: 8vh;
+}
+
+.form-control {
+    width: 22vw;
+    margin-bottom: 1rem;
+}
+
+.col-5 {
+    margin-left: 7vw;
+}
+
+.col-7 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 224px;
+        margin-top: 24px; /* En caso de afectar eliminar esto solo centra verticalmente*/
+}
+
+p#p-profile {
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 0px;
+}
+
+.form-check-label {
+    width: 259px;
+}
+
+#btn-create {
+    margin-left: -1px;
+    margin-top: 20px;
+    width: 46vh;
+}
+
+img#img-profile {
+    border-radius: 10px;
+    width: fit-content;
+    height: 30rem;
+}
+
+p.finaltext {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#is-relative{
+    max-width: 420px;
+    position: relative;
+  }
+  
+  #iconregistro{
+    position: absolute;
+    display: block;
+    bottom: 0.5rem;
+    right: -5.5rem;
+    
+    user-select: none;
+    cursor: pointer;
+  }

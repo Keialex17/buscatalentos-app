@@ -1,0 +1,132 @@
+/*
+    home.css: This website contains selectors only used in home.css
+
+    height: 39vh;
+
+    All pages share the styles on index.css but you should create 
+    one more css for each page that will contain the selected used 
+    on that page only (the ones not reused in other pages).
+*/
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+#footer-home {
+ background-color: #8924a3;
+}
+
+#h5-f-h {
+    color: white;
+    font-weight: 600
+}
+
+#buttons-navbar-home {
+    border-radius: 50px;
+}
+
+#navbar-bg-home {
+background-color: #8924a3;
+padding-top: 0.35rem;
+padding-bottom: 0.35rem;
+}
+
+#carrusel1{
+    height: 650px;
+    filter: brightness(70%);
+}
+
+#carrusel2{
+    height: 650px;
+    filter: brightness(70%);
+}
+
+#carrusel3{
+    height: 650px;
+    filter: brightness(70%);
+}
+
+/* #iconcoment{
+    color: aquamarine;
+} */
+
+#karateteacher{
+    height: 25vh;
+    width: 14vw;
+    border: 5px solid;
+}
+
+#knowthat{
+    height: 80vh;
+    width: 90vh;
+}
+
+#texto-carrusel-home {
+color: white;
+font-weight: 1000;
+text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+font-size: 5.5vw;
+}
+
+#descripcion-carrusel-home {
+    color: #00EFD0;
+    font-weight: 600;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+#descripcion-carrusel-home-slice2 {
+    color: #00ffde;
+    font-weight: 600;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    height: 39vh;
+}
+
+#vermasbutton{
+    background-color: #8924a3;
+    color: white;
+}
+
+#linkvermas{
+    text-decoration: none;
+}
+
+#descripcion-carrusel-home-slice2{
+    font-size: 3vw;
+}
+
+#descripcion-carrusel-home2{
+    color: white;
+}
+
+#texto-carrusel-home3{
+    font-size: 4vw;
+}
+
+#talentomasbuscado{
+    text-align: center;
+    padding: 3%;
+    font-size: 1.2vw;
+}
+
+#backgroundcomment{
+    background-color: #8924a3;
+}
+
+#prueba{
+    color: white;
+}
+
+#starteacher{
+    color: yellow
+}
+
+#sabiasque{
+    background-color: #8924a3;
+    color: white
+}
+
+#registerbutton{
+    background-color: #8924a3;
+    color: white
+}

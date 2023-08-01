@@ -1,0 +1,17 @@
+.logo-img {
+    width: 17vw;
+    height: auto;
+}
+
+#navlink{
+    text-decoration: none;
+}
+
+#titulo-boton-navbar {
+    border-radius: 50%;
+    transition: background-color 0.6s ease 0s;;
+}
+
+#titulo-boton-navbar:hover {
+    background-color: #a82ac8;
+}

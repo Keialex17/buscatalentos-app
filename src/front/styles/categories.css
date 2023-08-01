@@ -1,0 +1,16 @@
+#categories{
+    height: 30vh;
+    width: 35vh;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5)
+}
+
+.selected {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid blue;
+  }
+
+#confirmation-button-registro{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,59 @@
+#loginbox {
+  position: absolute;
+  background-color: rgb(255, 245, 231);
+  height: 100vh;
+  z-index: 0;
+  opacity: 0.9;
+}
+
+#iniciosesion-button {
+  border: 0;
+ background-color:  #8924a3;
+}
+
+#iniciosesion-bg {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+}
+
+#logo-login {
+  width: 17vw;
+  height: auto;
+}
+
+#input-login-iniciosesion {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+#below-inputs-iniciosesion {
+  margin-top: 26px;
+}
+
+#logobox-logologin {
+  height: 19vh;
+  justify-content: center;
+  align-items: end;
+  display: flex;
+}
+
+#is-relative{
+  max-width: 420px;
+  position: relative;
+}
+
+#icon{
+  position: absolute;
+  display: block;
+  bottom: 1.5rem;
+  right: 0.8rem;
+  
+  user-select: none;
+  cursor: pointer;
+}

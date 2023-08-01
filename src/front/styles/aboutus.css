@@ -1,0 +1,141 @@
+#title-aboutus-page {
+    text-decoration: underline solid #8924a3;
+    margin-bottom: 44px;
+    margin-top: 50px;
+    font-size: 42px;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+}
+
+#aboutUsBody {
+    z-index: 0;
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parrafo-about {
+    position: relative;
+    z-index: 0;
+}
+
+.circless {
+    z-index: 0;
+    border-radius: 30px;
+    height: 33vh;
+    width: 96vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+}
+
+#texto-parrafo-aboutus {
+    word-spacing: 5px;
+    font-weight: 600;
+}
+
+.circless li{
+    position: relative;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #8924a3;
+    animation: animate 15s linear infinite;
+    bottom: -100%;
+    left: -80%;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.circless li:nth-child(1) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.circless li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circless li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circless li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circless li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+
+}
+
+.circless li:nth-child(6) {
+    left: 7%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circless li:nth-child(7) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circless li:nth-child(8) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circless li:nth-child(9) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circless li:nth-child(10) {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+
+
